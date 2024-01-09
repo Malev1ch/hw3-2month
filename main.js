@@ -16,9 +16,11 @@ const getProducts = (category) => {
           <img class="card__img" src="${item.thumbnail}" alt="">
             <h2 class="card__title">${item.title}</h2>
             <p class="card__subtitle">${item.description}</p>
-            <p class="card__category">Категория: ${item.category}</p>
+            <p class="card__category">Категория:${item.category}</p>
             <p class="card__price">Цена: ${item.price}</p>
             <p class="card__rating">Рейтинг: ${item.rating}</p> 
+            <p class="card__stock">Голосов: ${item.stock}</p>
+            </div>
           </div>
         `;
       });

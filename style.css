@@ -93,8 +93,13 @@ p, h2 {
   font-weight: bold;
 }
 
-.card__rating {
+.card__rating, .card__stock {
   margin: 5px 0;
   font-size: 12px;
   font-weight: bold;
+}
+
+.card_inform {
+  display: flex;
+  justify-content: space-between;
 }
