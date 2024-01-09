@@ -98,8 +98,3 @@ p, h2 {
   font-size: 12px;
   font-weight: bold;
 }
-
-.card_inform {
-  display: flex;
-  justify-content: space-between;
-}
